@@ -1,0 +1,532 @@
+.common-title-area {
+  background: linear-gradient(180deg, #fff,rgb(246, 246, 252));
+}
+
+/* 事業内容　概要 */
+
+#s-services {
+  padding-bottom: 10rem;
+  background-color: rgb(246, 246, 252);
+}
+
+.services-guide {
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  width: 27rem;
+  line-height: 2;
+  align-self: flex-start;
+  color: #333333;
+  background-color: #ffffff75;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.1875rem 0.375rem rgba(0, 0, 0, 0.05);
+}
+
+.circle-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 4rem;
+  margin: 8rem 8rem 0;
+}
+
+.circle {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  border: 1px solid #0073e6;
+  text-align: center;
+  background-color: #fff;
+}
+
+.circle-logo {
+  width: 25rem;
+  height: 25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+}
+
+#s-services .circle-title {
+  width: 11rem;
+  height: 11rem;
+  line-height: 10rem;
+  background-color: #0073e6;
+  box-shadow: 0.4rem 0.4rem 0.4rem #7ebaf6;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.06rem;
+  transition: 0.3s;
+}
+
+#s-services .circle-title:hover {
+  letter-spacing: 0.2rem;
+  scale: 1.15;
+}
+
+#s-services .circle-title span {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 0.3rem;
+}
+
+.consulting-circle span {
+  white-space: nowrap;
+  font-size: clamp(0.72rem, 1.2vw, 0.9rem);
+  line-height: 1;
+  display: inline-block;
+}
+
+.circle-position {
+  position: relative;
+  margin: 0 auto;
+}
+
+.program-production-circle {
+  position: absolute;
+  top: -6rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.s-services-flex {
+  display: flex;
+  gap: 15rem;
+  position: absolute;
+  top: 13rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 事業内容　詳細 */
+
+.services-guide-title span {
+  font-size: 5rem;
+  color: #0073e6;
+  font-weight: 700;
+  opacity: 0.6;
+  margin-right: 1rem;
+}
+
+.services-guide-title h2 {
+  font-size: 2.488rem;
+  letter-spacing: 0.2985rem;
+  margin: 2rem 0 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #0073e6;
+  color: #0073e6;
+}
+
+#program-production {
+  padding-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.services-guide-title {
+  padding: 0 8rem;
+}
+
+.services-guide-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  padding: 0 8rem;
+}
+
+.services-guide-text {
+  width: 50%;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.services-img img {
+  border-radius: 1.875rem;
+  object-fit: cover;
+  width: 40rem;
+  height: 20rem;
+}
+
+.services-img {
+  width: 50%;
+}
+
+.achievement-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#program-production h3 {
+  font-family: 'Franklin Gothic Medium',sans-serif;
+  font-weight: 900;
+  font-size: 2.074rem;
+  color: #0073e6;
+  letter-spacing: 0.5rem;
+  position: relative;
+}
+
+#program-production h3::before {
+  position:absolute;
+  top: 50%;
+  width: 2rem;
+  content:'';
+  border-top:solid 0.2rem #0073e6;
+  left: calc(50% - 8rem);
+}
+
+#program-production h3::after{
+    position:absolute;
+  top: 50%;
+  width: 2rem;
+  content:'';
+  border-top:solid 0.2rem #0073e6;
+  right: calc(50% - 8rem);
+}
+
+#program-production h4 {
+  font-size: 1.44rem;
+  color: #0073e6;
+  letter-spacing: 0.144rem;
+}
+
+#program-production h4 span {
+  color: rgb(247, 194, 4);
+  font-size: 1.728rem;
+}
+
+.achievement-bg {
+  background-color: rgb(246, 246, 252);
+}
+
+.achievement {
+  padding: 3rem 8rem;
+  margin-top: 3rem;
+}
+
+.achievement p {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin: 0 auto;
+  color: #333333;
+  text-align: center;
+}
+
+#ses {
+  padding-bottom: 5rem;
+}
+
+#ses h3 {
+  font-family: 'Franklin Gothic Medium',sans-serif;
+  font-weight: 900;
+  font-size: 2.074rem;
+  color: #0073e6;
+  letter-spacing: 0.5rem;
+  position: relative;
+}
+
+#ses h3::before {
+  position:absolute;
+  top: 50%;
+  width: 2rem;
+  content:'';
+  border-top:solid 0.2rem #0073e6;
+  left: 38%;
+}
+
+#ses h3::after{
+  position:absolute;
+  top: 50%;
+  width: 2rem;
+  content:'';
+  border-top:solid 0.2rem #0073e6;
+  right: 38%;
+}
+
+#consulting {
+  padding-bottom: 7rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  #s-services {
+    padding-bottom: 7rem;
+  }
+
+  .circle-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 6rem 3rem 0;
+    align-items: flex-start;
+  }
+
+  .circle-position {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .program-production-circle {
+    top: -7rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .s-services-flex {
+    top: 11rem;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 10rem;
+  }
+
+  .services-guide{
+    width: clamp(18rem, 34vw, 24rem);
+  }
+
+  .circle{
+    width: clamp(18rem, 36vw, 23rem);
+    height: clamp(18rem, 36vw, 23rem);
+  }
+
+  .circle-logo{
+    width: clamp(18rem, 36vw, 23rem);
+    height: clamp(18rem, 36vw, 23rem);
+  }
+
+  #s-services .circle-title{
+    width:  clamp(96px, 28vw, 150px);
+    height: clamp(96px, 28vw, 150px);
+    line-height: clamp(96px, 28vw, 150px);
+    font-size: clamp(11px, 3vw, 14px);
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  /* モバイル版　事業内容 概要 */
+
+  #s-services {
+    padding-bottom: 0;
+  }
+
+  .circle-flex {
+    display: block;
+    margin: 0 1.5rem;
+  }
+
+  .services-guide {
+    font-size: 1rem;
+    line-height: 1.9;
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    padding: 1.25rem;
+  }
+
+  .circle-position {
+    --circle: min(60vw, 240px);
+    --btn:    min(30vw, 150px);
+    position: relative;
+    margin-top: 3rem;
+    padding-top: calc(var(--btn) * 0.6);
+    padding-bottom: calc(var(--btn) * 0.9);
+    margin-bottom: -3rem;
+  }
+
+  #s-services .circle-title {
+    width: var(--btn);
+    height: var(--btn);
+    line-height: var(--btn);
+    font-size: clamp(11px, 2.8vw, 14px);
+    letter-spacing: 0.04rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem #7ebaf6;
+    margin-top: 0;
+  }
+
+  .consulting-circle span {
+    font-size: clamp(9px, 2.5vw, 12px);
+    letter-spacing: 0.02rem;
+  }
+
+  .program-production-circle {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+  }
+
+  .circle {
+    width: var(--circle);
+    height: var(--circle);
+    margin: 0 auto;
+  }
+
+  .circle-logo {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+  }
+
+  .s-services-flex {
+    display: flex;
+    justify-content: center;
+    gap: 22vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,10%);
+  }
+
+  /* モバイル版　事業内容 詳細 */
+
+  .services-guide-title {
+    padding: 0 1.5rem;
+  }
+
+  .services-guide-title span {
+    font-size: 2.8rem;
+  }
+
+  .services-guide-title h2 {
+    white-space: nowrap;
+    text-align: center;
+    font-size: min(8vw, 7.5vw);
+    letter-spacing: 0.15em;
+    line-height: 1.2;
+    overflow: hidden;
+    margin-top: 2rem;
+    margin-bottom: 9vw;
+  }
+
+  .services-guide-flex {
+    flex-direction: column-reverse;
+    padding: 0 1.5rem;
+    gap: 6vw;
+  }
+
+  .services-guide-text {
+    font-size: 1rem;
+    line-height: 1.9;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .services-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  #program-production {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  #program-production h3 {
+    font-family: 'Franklin Gothic Medium',sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #0073e6;
+    letter-spacing: 0.3rem;
+    position: relative;
+  }
+
+  #program-production h3::before {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+    content: '';
+    border-top: solid 0.1rem #0073e6;
+    left: calc(50% - 5rem);
+  }
+
+  #program-production h3::after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+    content: '';
+    border-top: solid 0.1rem #0073e6;
+    right: calc(50% - 5rem);
+  }
+
+  #program-production h4 {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  #program-production h4 span {
+    font-size: 1.1rem;
+  }
+
+  .achievement {
+    padding: 6vw 1.5rem;
+    margin-top: 6vw;
+  }
+
+  .achievement p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .services-img img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    aspect-ratio: 16 / 10;
+  }
+
+  #ses {
+    padding-bottom: 0;
+  }
+
+  #ses h3 {
+    font-size: 4rem;
+  }
+
+  #ses h3::before {
+    left: 35%;
+  }
+
+  #ses h3::after{
+    right: 35%;
+  }
+
+  #ses .services-guide-flex {
+    flex-direction: column;
+  }
+
+  #consulting {
+    padding-bottom: 8vw;
+  }
+
+  #consulting .services-guide-title h2 {
+    font-size: min(6vw, 7.5vw);
+    letter-spacing: 0.12rem;
+  }
+
+  #consulting .services-guide-title span {
+    font-size: 2.4rem;
+  }
+
+  #consulting img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
+  }
+
+}

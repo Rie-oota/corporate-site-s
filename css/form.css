@@ -1,0 +1,87 @@
+/* お問い合わせ */
+
+.contact-guide {
+  margin: 5rem 0;
+  text-align: center;
+  line-height: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.guide-text p {
+  border-bottom: 0.125rem dotted #0073e691;
+  font-size: 1.44rem;
+  color: #333333;
+}
+
+.contact-guide img {
+  margin: 3.5rem 0 0 0.5rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+#entry {
+  padding-top: 5rem;
+}
+
+#entry h1 span {
+  color: rgb(247, 194, 4);
+  font-size: 2.5rem;
+}
+
+.contact-form {
+  padding-top: 5rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+
+  .contact-guide{
+    margin: 8vw 0;
+    padding: 0 1rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .guide-text{
+    max-width: 70%;
+  }
+
+  .guide-text p{
+    font-size: 3.9vw;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+  }
+
+  .contact-guide img{
+    width: 14vw;
+    max-width: 72px;
+    height: auto;
+    margin: 0;
+    flex: 0 0 auto;
+    padding-top: 1.7rem;
+  }
+
+  #entry h1 span {
+    font-size: 6vw;
+  }
+
+  .contact-form{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5vw;
+    box-sizing: border-box;
+  }
+
+  .footer-contact-btn{
+    margin-left: 0;
+  }
+
+}
