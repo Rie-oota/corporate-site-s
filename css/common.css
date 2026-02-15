@@ -6,6 +6,8 @@ html {
   font-family: sans-serif,'Yu Gothic UI', 'ヒラギノ角ゴシック','Hiragino Sans';
   background-color: #fff;
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 * {
@@ -15,7 +17,7 @@ html {
 }
 
 :root {
-  --header-h: 5rem;
+  --header-h: 4rem;
 }
 
 a {
@@ -54,7 +56,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 1001;
-  height: 5rem;
+  height: var(--header-h);
   background-color: #fff;
   box-shadow: 0 0.1875rem 0.375rem rgba(0, 0, 0, 0.05);
   overflow: hidden;
@@ -100,6 +102,7 @@ header a .logo:hover {
   gap: 1.875rem;
   position: relative;
   align-items: center;
+  transform: translateY(-2px);
 }
 
 .nav-text a {
@@ -107,8 +110,9 @@ header a .logo:hover {
   border-bottom: 0.15rem solid #0073e6;
   padding-bottom: 0.125rem;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   transition: opacity 0.5s ease;
+  line-height: 1.2;
 }
 
 .nav-text a:hover {
@@ -133,12 +137,12 @@ header a .logo:hover {
   justify-content: center;
   color: #fff;
   background-color: #0073e6c9;
-  box-shadow: 0.1875rem 0.3125rem #195998;
+  box-shadow: 0.12rem 0.22rem #195998;
   border-radius: 7rem;
-  padding: 0.9375rem;
-  width: 10rem;
+  padding: 0.8rem;
+  width: 9.5rem;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   letter-spacing: 0.12rem;
   line-height: 1;
   transition: background-color 0.5s ease, box-shadow 0.5s ease, transform 0.5s ease;
@@ -155,7 +159,7 @@ header a .logo:hover {
 
 .common-title-area {
   width: 100%;
-  padding-top: 5rem;
+  padding-top: var(--header-h);
 }
 
 .common-title-inner{
@@ -555,9 +559,15 @@ header a .logo:hover {
 
 /* モバイル版　メニューボタン */
 
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .drawer_menu {
     display: block;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
 
   .nav-list {
@@ -569,7 +579,10 @@ header a .logo:hover {
   }
 
   .drawer_button {
-    margin-top: 1rem;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
     position: relative;
@@ -632,14 +645,6 @@ header a .logo:hover {
 
   .drawer_button.active .drawer_close {
     display: block;
-  }
-
-  .drawer_text {
-    position: absolute;
-    bottom: -18px;
-    left: 0;
-    text-align: center;
-    font-size: 14px;
   }
 
   .drawer_close {
@@ -780,6 +785,10 @@ header a .logo:hover {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
+  :root {
+    --header-h: 4.5rem;
+  }
+
   #contact-area h1 {
     display: inline-block;
     width: auto;
@@ -796,6 +805,10 @@ header a .logo:hover {
     font-size: 16px;
   }
 
+  :root {
+    --header-h: 5rem;
+  }
+
   .inview {
     transition: opacity .8s, transform .8s;
   }
@@ -803,7 +816,6 @@ header a .logo:hover {
   header {
     padding: 0;
     max-width: 100%;
-    height: 5rem;
   }
 
   .header-inner {
